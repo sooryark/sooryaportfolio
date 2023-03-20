@@ -3,6 +3,7 @@ const backwardbtn = document.getElementById("backward");
 const menubtn = document.getElementById("menuicon");
 const closebtn = document.getElementById("closeicon");
 const imgel = document.querySelectorAll(".project");
+const logo = document.querySelectorAll(".logo");
 const menubar = document.querySelector(".menu");
 const totalLength = imgel.length;
 console.log(totalLength);
@@ -104,3 +105,4 @@ menuitem.forEach((item)=>{
     closebtn.style.display = "none"; 
     })
 })
+
