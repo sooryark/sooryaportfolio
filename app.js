@@ -1,3 +1,5 @@
+//getting html elements
+
 const forwardbtn = document.getElementById("forward");
 const backwardbtn = document.getElementById("backward");
 const menubtn = document.getElementById("menuicon");
@@ -6,11 +8,9 @@ const imgel = document.querySelectorAll(".project");
 const logo = document.querySelectorAll(".logo");
 const menubar = document.querySelector(".menu");
 const totalLength = imgel.length;
-console.log(totalLength);
+//console.log(totalLength);
 
 count = 0;
-
-
 
     function updateCount(){
         imgel.forEach(slider=>{
